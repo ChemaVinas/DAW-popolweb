@@ -1,0 +1,6 @@
+Correcciones:
+Hemos implementado finalmente SpringMVC para el controlador de recursos y usuarios, protegidos con reglas de acceso en web.xml.
+Creamos un nuevo DAO, llamado PaisesDAO, para almacenar un array de todos los paises que puede seleccionar el usuario en su perfil. Este array lo utilizará y lo enviará el controlador de usuarios al mostrar "perfil.jsp". En "perfil.jsp" hacemos un bucle para listar cada pais seleccionable.
+
+Cambios:
+Realización de validaciones en el lado del Cliente con js. Validamos recurso y usuario en los formularios "perfil.jsp", "register.jsp", "crear.jsp", "editar.jsp". 

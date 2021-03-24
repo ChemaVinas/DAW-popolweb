@@ -1,0 +1,488 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-feb-2017, 18:01:29
+    Author     : Jose7pc
+*/
+
+#red{color: #c9302c}
+#blue{color: #204d74}
+#green{color:#4cae4c}
+#black{color: #000}
+#white{color:#fff}
+
+h1{font-family: 'Montserrat', sans-serif;}
+h2{font-family: 'Montserrat', sans-serif;}
+h3{font-family: 'Montserrat', sans-serif;}
+h4{font-family: 'Montserrat', sans-serif;}
+h5{font-family: 'Montserrat', sans-serif;}
+input{font-family: 'Montserrat', sans-serif;}
+
+
+body{ font-family: 'Open Sans', sans-serif;}
+div{font-family: 'Open Sans', sans-serif;}
+p{font-family: 'Open Sans', sans-serif;}
+li{font-family: 'Open Sans', sans-serif;}
+a{
+    font-family: 'Open Sans', sans-serif;
+    color: #204d74;
+}
+
+.forgot {
+    margin-top: -20px;
+    text-align: center;
+}
+
+
+.loginbg{
+    background-image: url(../..//images/bg.jpg);
+}
+
+/*Barra lateral seleccionado*/
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover{
+    color:#fff;
+    background-color:#204d74
+}
+
+/*Color cuando pasamos el raton por encima*/
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus,
+.top-nav>li>a:hover,
+.top-nav>li>a:focus,
+.top-nav>.open>a,
+.top-nav>.open>a:hover,
+.top-nav>.open>a:focus,
+.side-nav li a:hover,
+.side-nav li a:focus{
+    color: #fff;
+    background-color: #204d74;
+}
+
+.logonav{
+    width: 100px;
+    margin:4%;
+}
+
+/*Paneles default*/
+.panel-default>.panel-heading{color:#fff;background-color:#204d74;border-color:#204d74}
+
+.panel-default{
+    border-color: #204d74;
+    background-color: #f5f5f5;
+}
+
+.btn-detail{
+    background-color: #204d74;
+    border-color: #103d64;
+    color: #ffffff;
+}
+
+.centered{
+    text-align: center;
+}
+
+.breadcrumb{
+    background-color: #204d74;
+}
+
+.breadcrumb>.active{
+    color: #fff;
+}
+
+.text-muted{
+    color: #222;
+}
+
+.pagination{
+    color:#204d74;
+}
+
+.dropdown-menu>li>a:focus,.dropdown-menu>li>a:hover{color:#fff;text-decoration:none;background-color:#204d74}
+
+.centered{text-align: center;}
+
+.right{
+    position: absolute;
+    right:0px;
+}
+
+.minrec{
+    padding-bottom: 10px;
+}
+
+.input-group-addon{
+    color:#fff;
+    background-color:#204d74;
+}
+
+.well{
+    background-color: transparent;
+    border: transparent;
+}
+
+.btn-warning{color:#fff;background-color:#204d74;border-color:#204d74;}
+
+.input-group .form-control{
+    width: 400px;
+}
+
+@media (max-width:500px){
+    .minrec{
+        padding-left: 35%;
+        padding-bottom: 10px;
+    }
+    .tab-group li a {
+        font-size: 17px;
+    }
+}
+
+.detalles{
+    min-height: 150px;
+    border-left: #204d74;
+    border-left-style: solid;
+    border-left-width: 2px;
+    align-content: space-between;
+}
+
+.detalles > p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.detalles > a{
+    margin-top: 20px;
+    align-self: stretch;
+}
+
+.ec-stars-wrapper {
+	/* Espacio entre los inline-block (los hijos, los `a`) 
+	   http://ksesocss.blogspot.com/2012/03/display-inline-block-y-sus-empeno-en.html */
+	font-size: 0;
+	/* Podríamos quitarlo, 
+		pero de esta manera (siempre que no le demos padding), 
+		sólo aplicará la regla .ec-stars-wrapper:hover a cuando
+		también se esté haciendo hover a alguna estrella */
+	display: block;
+}
+.ec-stars-wrapper a {
+	text-decoration: none;
+	display: inline;
+	/* Volver a dar tamaño al texto */
+	font-size: 32px;
+	font-size: 2rem;
+	
+	color: #888;
+}
+
+.ec-stars-wrapper:hover a {
+	color: rgb(39, 130, 228);
+}
+/*
+ * El selector de hijo, es necesario para aumentar la especifidad
+ */
+.ec-stars-wrapper > a:hover ~ a {
+	color: #888;
+}
+
+.titulorecurso {
+    border-bottom: #204d74;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 30px;
+}
+
+.titulorecurso > div {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.titulorecurso > div > h1 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.followbtn {
+    margin-top: 10px;
+}
+
+.fecha{
+    border-top: #204d74;
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+
+.fecha > h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.fecha > p {
+    color: #204d74;
+    font-size: 16px;
+}
+
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+.btn-circle.btn-lg {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+
+.buttons{}
+
+.buttons > a{
+    margin-left: 20px;
+}
+
+.downloads{
+    vertical-align: bottom;
+    margin-bottom: 5px;
+    
+    border-color: #4cae4c;
+    border-width: 3px;
+    background-color: #fff;
+    color: #4cae4c;
+}
+
+.downloads:hover{
+    border-color: #4cae4c;
+    border-width: 3px;
+    background-color: #4cae4c;
+    color: #fff;
+}
+
+.downloads:active{
+    border-color: #4cae4c;
+    border-width: 3px;
+    background-color: #4cae4c;
+    color: #fff;
+}
+
+
+.like{
+    vertical-align: bottom;
+    margin-bottom: 5px;
+    
+    border-color: #c9302c;
+    border-width: 3px;
+    background-color: #fff;
+    color: #c9302c;
+}
+
+.like:hover{
+    border-color: #c9302c;
+    border-width: 3px;
+    background-color: #c9302c;
+    color: #fff;
+}
+
+.like:active{
+    border-color: #c9302c;
+    border-width: 3px;
+    background-color: #c9302c;
+    color: #fff;
+}
+
+
+.share{
+    vertical-align: bottom;
+    margin-bottom: 5px;
+    
+    border-color: #204d74;
+    border-width: 3px;
+    background-color: #fff;
+    color: #204d74;
+}
+
+.share:hover{
+    border-color: #204d74;
+    border-width: 3px;
+    background-color: #204d74;
+    color: #fff;
+}
+
+.share:active{
+    border-color: #204d74;
+    border-width: 3px;
+    background-color: #204d74;
+    color: #fff;
+}
+
+
+.report{
+    vertical-align: bottom;
+    margin-bottom: 5px;
+    
+    border-color: #000;
+    border-width: 3px;
+    background-color: #fff;
+    color: #000;
+}
+
+.report:hover{
+    border-color: #000;
+    border-width: 3px;
+    background-color: #000;
+    color: #fff;
+}
+
+.report:active{
+    border-color: #000;
+    border-width: 3px;
+    background-color: #000;
+    color: #fff;
+}
+
+.edit{
+    vertical-align: bottom;
+    margin-bottom: 5px;
+    
+    border-color: #f0ad4e;
+    border-width: 3px;
+    background-color: #fff;
+    color: #f0ad4e;
+}
+
+.edit:hover{
+    border-color: #f0ad4e;
+    border-width: 3px;
+    background-color: #f0ad4e;
+    color: #fff;
+}
+
+.edit:active{
+    border-color: #f0ad4e;
+    border-width: 3px;
+    background-color: #f0ad4e;
+    color: #fff;
+}
+
+.erase{
+    vertical-align: bottom;
+    margin-bottom: 5px;
+    
+    border-color: #ac2925;
+    border-width: 3px;
+    background-color: #fff;
+    color: #ac2925;
+}
+
+.erase:hover{
+    border-color: #ac2925;
+    border-width: 3px;
+    background-color: #ac2925;
+    color: #fff;
+}
+
+.erase:active{
+    border-color: #ac2925;
+    border-width: 3px;
+    background-color: #ac2925;
+    color: #fff;
+}
+
+.btndet{
+    display:inline;
+}
+
+.btndet > table {
+    display: inline;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.recurso > div > div > p {
+    font-size: 16px;
+}
+
+.desc {height: 226px;}
+
+.label-warning{background-color:#c9302c;}
+
+.separador {
+    border-left: #204d74;
+    border-left-style: solid;
+    border-left-width: 2px;
+    
+    display: inline;
+    vertical-align: bottom;
+    
+    margin-left: 20px;
+}
+
+hr {
+    border-top-color: #204d74;
+}
+
+.misrecLD{
+    margin-bottom: 10px;
+}
+
+.misrecLD > tbody > tr > td {
+    padding-right: 15px;
+}
+
+#descripcion {
+  height: 95px;
+}
+
+
+.recurso {}
+
+.usuario {
+    margin-top: 20px;
+    border-top: #204d74;
+    border-top-style: solid;
+    border-top-width: 2px;
+    
+    border-left-style: none;
+    
+    padding-right: 0px;
+    
+    margin-bottom: 20px;
+}
+
+.usuario > h3 {
+    margin-top: 10px;
+}
+
+.username{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.imgperfil{width: 100%;}

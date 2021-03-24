@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/POPOLweb">
+  <!--Apache Tomcat Derby Connection Pool-->
+  <!-- NOTE: Comment for glassfish deployment (see glassfish-resources.xml) -->
+  <Resource auth="Container" driverClassName="org.apache.derby.jdbc.ClientDriver" maxActive="8" name="jdbc/popol" password="popolweb" type="javax.sql.DataSource" url="jdbc:derby://localhost:1527/popol" username="chema"/>
+  <!-- Tomcat Authentication Realm config -->
+  <!-- Select one of them -->
+  <!-- Tomcat File Realm -->
+  <!--
+    <Realm className="org.apache.catalina.realm.UserDatabaseRealm" resourceName="UserDatabase"/>
+  -->
+  <!-- Tomcat JDBC Realm-->
+  <Realm className="org.apache.catalina.realm.DataSourceRealm" dataSourceName="jdbc/popol" localDataSource="true" roleNameCol="rol" userCredCol="clave" userNameCol="usuario" userRoleTable="roles" userTable="usuarios"/>
+</Context>

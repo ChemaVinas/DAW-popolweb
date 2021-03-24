@@ -1,0 +1,15 @@
+com\daw\popol\model\dao\UsuarioDAO.class
+com\daw\popol\model\dao\PaisesDAO.class
+com\daw\popol\model\Usuario.class
+com\daw\popol\controller\UsuariosSpringController.class
+com\daw\popol\model\dao\GenericDAO.class
+com\daw\popol\Util.class
+com\daw\popol\model\dao\RecursoDAOJDBC.class
+com\daw\popol\model\Recurso.class
+com\daw\popol\controller\RecursosController.class
+com\daw\popol\controller\RecursosSpringController.class
+com\daw\popol\model\dao\RecursoDAO.class
+com\daw\popol\model\dao\UsuarioDAOJDBC.class
+com\daw\popol\controller\UsuariosController.class
+com\daw\popol\model\Logout.class
+com\daw\popol\model\dao\RecursoDAOList.class
